@@ -54,10 +54,11 @@ export function gerarRecibo() {
 
 
 export function mostrarRecibo() {
-    var reciboPronto = document.getElementById("reciboPronto").style.display;
+    var reciboPronto = document.getElementById("reciboPronto").style.display = "none";
 
     if (reciboPronto == "none") {
         document.getElementById("reciboPronto").style.display = "block";
+        ;
     } else {
         document.getElementById("reciboPronto").style.display = "none";
     }
