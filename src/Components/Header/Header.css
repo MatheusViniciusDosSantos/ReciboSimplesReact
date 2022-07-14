@@ -1,0 +1,19 @@
+.Header {
+    background-color: #009483;
+    border: #ffff00bb 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    height: 30%;
+    max-height: 50px;
+    padding: 10px;
+    align-items: center;
+    border-radius: 10px;
+    top: 1%;
+    left: 1%;
+    right: 1%;
+
+}
+h1 {
+    margin: 0px;
+    text-align: center;
+}
